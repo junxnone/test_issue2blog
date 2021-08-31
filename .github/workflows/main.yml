@@ -14,6 +14,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           created_at: ${{ github.event.issue.created_at }}
           updated_at: ${{ github.event.issue.updated_at }}
+          label_name: ${{ github.event.issue.label[name] }}
           title: ${{ github.event.issue.title }}
           body: ${{ github.event.issue.body }}
           actor: ${{ github.actor }}
