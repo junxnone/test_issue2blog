@@ -2,10 +2,11 @@
 layout: post
 title: "Test issue2 rename"
 date: 2021-08-31T04:27:59Z
-update: 2021-08-31T05:35:04Z
+update: 2021-08-31T05:42:45Z
 tags: 
 ---
 updating...
 
-**+ update time**
+- [x] **+ update time**
+- [x] **+ label**
 
